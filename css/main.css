@@ -175,6 +175,7 @@ body{
 
 .main.col-md-4{
     margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 .card-header{
@@ -189,16 +190,24 @@ body{
     color: #4aaaa5;
 }
 
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .github.icon{
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: 5px;
+    display: inline-block;
 }
 .linkedin.icon{
     margin-right: 5px;
+    display: inline-block;
 }
 
 .stackoverflow.icon{
-    margin-right: 5px;
+    margin-right: auto;
+    display: inline-block;
 }
 
 .icon{
@@ -206,6 +215,7 @@ body{
     height:75px;
     float:left;
     margin-bottom: 8px;
+    
 } 
 
 .footer.navbar.navbar-expand-lg.navbar-light{
@@ -277,7 +287,9 @@ button{
     padding-left: 40px;
     padding-right: 40px;
 }
-
+input::placeholder{
+    vertical-align: text-top;
+}
 
 
 
